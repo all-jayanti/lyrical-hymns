@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face{
+	font-family: ams;
+	src:url('../fonts/AMS Hastkala 1.ttf');
+}
+
+
+.txt-hymns{
+    width: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+nav{
+	background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+#logo_text{
+	font-family: ams;
+}
+
+iframe{
+	overflow: hidden;
+    padding: 5px;
+}
+
+#menu{
+	width: 100%;
+	height: 80vh;
+   display: block;
+}
+
+
+.img-container{
+	text-align: center;
+}
+
+/*___________________________________________________________________________*/
+
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+/*______________________________________________________________________*/
+/*____________________________-------------------------_____________________-*/
+
+
+
+@-webkit-keyframes hue {
+  from {    -webkit-filter: hue-rotate(0deg);  }
+  to {    -webkit-filter: hue-rotate(-360deg);  }}
+    .m1{position:fixed;left:1%; width:auto;height:100%;top:1%;color:#000;}
+    .m2{position:fixed;right:1%; width:auto;height:100%;top:1%;color:#000;}
+
+
+
+
+.ct {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    animation-name: chco;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+
+/* The animation code */
+@keyframes chco {
+  from {color: red;}
+  to {color: yellow;}
+}
+
+
+
+.section {
+    margin: 50px 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+
+
+#running-div{
+    text-align: center;
+}
+
+
+/*________________________FOOTER__________________________*/
+
+
